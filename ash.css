@@ -1,0 +1,112 @@
+
+
+		body {
+			background-color: rgb(213,150,150);
+			margin: 0px;
+			padding-bottom: 30px;
+			border: solid black 3px;
+		}
+
+		 h1 {
+			font-family: verdana,roboto;
+			font-weight: bold;
+			background-color: none;
+			color: black;
+			font-size: 50px;
+			margin-top: 20px;
+			min-width: 606px;
+			min-height: 120pxx;
+		}
+
+		.div1 {
+			display: flex;
+			justify-content: space-between 200px;
+			flex-direction: row;
+			align-items: center;
+			background-color: lightgray;
+			margin-left: 0px;
+			margin-right: -10px;
+			margin-bottom: 30px;
+			border: solid black 1px;
+			width: 100%;
+		}
+
+		.media {
+			height: 30px;
+			width: 30px;
+			margin-right: 10px;
+			margin-left: 10px;
+		}
+
+		.contact {
+			color: rgb(0,0,0);
+		}
+
+		.games {
+			height: 100%;
+			width: 100%;
+		}
+
+		.preview-box {
+			display: flex;
+			justify-content: space-around;
+			flex: 1fr 1fr 1fr;
+			flex-wrap: wrap;
+			row-gap: 130px;
+			column-gap: 10px;
+			min-width: 650px;
+			padding-left: 20px
+			padding-right: 20px;
+		}
+
+		.preview {
+			height: 300px;
+			width: 300px;
+			min-width: 200px;
+		}
+
+		p {
+			font-weight: 700;
+			font-family: helvetica;
+		}
+
+		.input {
+			height: 19px;
+			width: 250px;
+		}
+
+		.button {
+			height: 25px;
+			margin-left: -2px;
+		}
+
+		.button:hover {
+			cursor: pointer;
+		}
+
+		.input-button {
+			align-content: right;
+			flex-wrap: nowrap;
+			min-height: 25px;
+		}
+
+		.Copyright {
+			width: 450px;
+		}
+
+		.footer {
+			height: 200px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-end;
+		}
+
+		.search {
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			justify-content: flex-end;
+			min-height: 25px;
+			flex-wrap: nowrap;
+		}
